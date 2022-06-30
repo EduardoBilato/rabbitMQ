@@ -4,7 +4,7 @@ services:
   rabbit:
     image: 'rabbitmq:3-management'
     environment:
-      RABBITMQ_ERLANG_COOKIE: 'SWQ0K0DSQALRP LNMEQG'
+      RABBITMQ_ERLANG_COOKIE: 'SWQOKODSQALRPCLNMEQG'
       RABBITMQ_DEFAULT_USER: 'rabbitmq'
       RABBITMQ_DEFAULT_PASS: 'rabbitmq'
       RABBITMQ_DEFAULT_VHOST: '/'
